@@ -8,6 +8,13 @@
 
 #ifndef GenerateLevel_h
 #define GenerateLevel_h
+#include <iostream>
+#include <string>
 
+class GenerateLevel{
+public:
+    GenerateLevel();
+    std::string levelNumber();
+};
 
 #endif /* GenerateLevel_h */
